@@ -1,0 +1,1 @@
+Template Julia package with docs
