@@ -8,13 +8,13 @@ jobs:
       fail-fast: false
       matrix:
         version:
-          - '1.6' # Minimum Julia version that GitHub actions passed runrests.
+          #- '1.6' # Minimum Julia version that GitHub actions passed runrests.
           - '1' # Leave this line unchanged. '1' will automatically expand to the latest stable 1.x release of Julia.
-          - 'nightly'
+          #- 'nightly'
         os:
           - ubuntu-latest
-          - windows-latest
-          - macOS-latest
+          #- windows-latest
+          #- macOS-latest
         arch:
           - x64
     steps:
